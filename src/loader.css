@@ -1,0 +1,25 @@
+/* body {
+  color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  background-color: #1b1b32;
+}*/
+
+span {
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(2px 4px 8px rgba(255, 255, 255, 0.9));
+  }
+  50% {
+    filter: drop-shadow(3px 6px 16px rgba(255, 255, 255, 0.9));
+  }
+  100% {
+    filter: drop-shadow(2px 4px 8px rgba(255, 255, 255, 0.9));
+  }
+}

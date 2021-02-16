@@ -1,0 +1,46 @@
+.menu {
+  text-align: center;
+  /* font-weight: bold; */
+  width: 100%;
+  height: 91vh;
+  background-color: #000;
+  position: fixed;
+  z-index: 1;
+  top: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 2s all;
+}
+
+.menu p {
+  text-transform: lowercase;
+}
+
+p:first-child {
+  margin-bottom: 3em;
+}
+
+.content {
+  height: 200px;
+  /* border: 1px solid #fff; */
+  font-size: 1.2em;
+}
+
+.socialM {
+  position: absolute;
+  bottom: 2em;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+.socialM a {
+  color: #fff;
+}
+
+.socialM a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
